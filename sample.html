@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        body p{
+            color: red;
+            display: flex;
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            margin: 20px;
+            font-size: 20px;
+        }
+        body audio{
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            /* background-color: yellow; */
+            font-size: 23px ;
+        }
+        #contact{
+            display: flex;
+            flex-direction: column;
+        }
+        .dt{
+            width: 159px;
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay="autoplay"controls="controls" src=".mp3">
+    <!-- <a href="download this file"></a> -->
+    </audio>
+
+    <p>right click on the audio and then select download as</p>
+    <form action="" method="POST" id="contact">
+    Date:<input class="dt" type="date" placeholder="Enter the date">
+    color:<input  type="color" placeholder="Enter your favrouitr color">
+</form>
+</body>
+</html>
